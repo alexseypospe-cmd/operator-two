@@ -24,31 +24,31 @@ public class Main {
         }
         // задание 3
         int year = 2021;
-        if (year < 1584){
+        if (year < 1584) {
             System.out.println("Не корректный год!");
-        } else if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+        } else if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
             System.out.println(year + " год является високосным.");
-        }else  {
-            System.out.println(year+" год не является високосным.");
+        } else {
+            System.out.println(year + " год не является високосным.");
         }
         // задание 4
         int deliveryDistance = 95;
         int deliveryDays = 1;
         if (deliveryDistance < 20) {
             deliveryDays += 0;
-            System.out.println("Потребуется дней: "+deliveryDays);
-        }else if (deliveryDistance >=20 && deliveryDistance < 60){
+            System.out.println("Потребуется дней: " + deliveryDays);
+        } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
             deliveryDays += 1;
-            System.out.println("Потребуется дней: "+deliveryDays);
-        }else if (deliveryDistance >= 60 && deliveryDistance < 100){
+            System.out.println("Потребуется дней: " + deliveryDays);
+        } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
             deliveryDays += 2;
-            System.out.println("Потребуется дней: "+deliveryDays);
-        }else {
+            System.out.println("Потребуется дней: " + deliveryDays);
+        } else {
             System.out.println("Доставки нет!");
         }
         // задание 5
         int monthNumber = 12;
-        switch (monthNumber){
+        switch (monthNumber) {
             case 1:
             case 2:
             case 12:
@@ -73,13 +73,9 @@ public class Main {
                 System.out.println("НЕТ ТАКОГО МЕСЯЦА!");
         }
 
-
-
-
-        }
-
-
     }
+
+}
 
 
 
